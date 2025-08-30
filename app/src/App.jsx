@@ -31,12 +31,12 @@ function App() {
           </div>
           
           <div>
-            <h2>Today's Date</h2>
+            <h2>Today's Date </h2>
             <p className="text-xl">{currentDate}</p>
           </div>
 
           <p>
-            Simple demonstration of AWS CI/CD pipeline using AWS codepipeline, AWS codebuild, AWS codedeploy, S3 & Vite + React.
+            Simple demonstration of AWS CI/CD pipeline using AWS codepipeline, AWS codebuild, AWS codedeploy, S3 & Vite + React. Kudos to Dami!
           </p>
           </div>
         
