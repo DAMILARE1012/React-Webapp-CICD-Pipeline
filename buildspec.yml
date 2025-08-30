@@ -1,3 +1,5 @@
+# The codedeploy needs this..
+
 version: 0.2
 
 phases:
@@ -20,3 +22,6 @@ artifacts:
   discard-paths: no
   type: zip
   name: 'app.zip'
+
+
+# The code deploy will pick the zipped file from the bucket. 

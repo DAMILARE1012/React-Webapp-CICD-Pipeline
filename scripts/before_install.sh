@@ -1,4 +1,6 @@
 #!/bin/bash
+
+# Before installation #
 # Update system
 sudo apt update -y
 

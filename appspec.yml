@@ -1,3 +1,5 @@
+# This file is for my code deployment. It defines how my application should be deployed to my targeted instances. 
+
 version: 0.0
 os: linux
 files:
