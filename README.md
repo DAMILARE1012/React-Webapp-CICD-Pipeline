@@ -48,6 +48,7 @@ This repository serves as both a demonstration and the companion code for my det
 1. Create a new role with EC2 as trusted entity
 2. Attach `AmazonEC2RoleforAWSCodeDeploy` policy
 3. Name the role (e.g., `EC2CodeDeployRole`)
+This is necessary because AWS's security model ensures that only authorized EC2 instances can participate in deployment processes. Without this trust relationship, EC2 instances wouldnt be able to winteract with AWS CodeDeploy service securely. 
 
 #### CodeDeploy Role
 1. Create a new role with CodeDeploy as trusted entity

@@ -26,7 +26,7 @@ function App() {
 
       <div className="card">
       <div>
-            <h2>Live Time</h2>
+            <h2>Live Time [HR:MM:SS]</h2>
             <p className="text-xl">{currentTime}</p>
           </div>
           
